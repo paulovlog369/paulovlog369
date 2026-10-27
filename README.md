@@ -13,4 +13,11 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+-->### Olá, eu sou o Paulo 👋
+
+- 🌱 Estou aprendendo GitHub e programação do zero pelo celular
+- 📚 Estudando: Lógica de programação
+- 🎯 Meta: Meu primeiro site/app
+- 📍 Santa Bárbara d'Oeste - SP
+
+Primeiro projeto: meu-primeiro-projeto
