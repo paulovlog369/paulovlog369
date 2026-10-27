@@ -1,27 +1,76 @@
+<!DOCTYPE html>
+<html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #0d1117; color: white; }
+    .hero {
+      height: 85vh;
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(13,17,23,1)), url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+    .hero img { width: 130px; height: 130px; border-radius: 50%; border: 4px solid #58a6ff; margin-bottom: 20px; }
+    .hero h1 { font-size: 42px; margin-bottom: 10px; }
+    .hero p { font-size: 18px; color: #8b949e; max-width: 500px; }
+    .hero .badge { background: #1f6feb; padding: 6px 14px; border-radius: 20px; font-size: 13px; margin-bottom: 15px; font-weight: bold; }
+    .section { padding: 50px 20px; max-width: 900px; margin: auto; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 20px; margin-top: 30px; }
+    @media(min-width: 600px){ .grid { grid-template-columns: 1fr 1fr; } }
+    .card { background: #161b22; border: 1px solid #30363d; border-radius: 16px; padding: 25px; transition: 0.2s; }
+    .card:hover { border-color: #58a6ff; transform: translateY(-3px); }
+    .card h3 { margin-bottom: 10px; color: #58a6ff; }
+    .btn-main { background: #238636; color: white; padding: 14px 28px; border-radius: 10px; text-decoration: none; font-weight: bold; display: inline-block; margin: 10px 5px; }
+    .btn-sec { background: #21262d; color: white; border: 1px solid #30363d; padding: 14px 28px; border-radius: 10px; text-decoration: none; display: inline-block; margin: 5px; }
+  </style>
 </head>
 <body>
-  <h1>Olá, eu sou o Paulo! 👋</h1>
-  <img src="https://github.com/paulovlog369.png" width="120" style="border-radius: 50%; border: 3px solid #58a6ff;">
-  
-  <div class="card">
-    <h2>🚀 Meu Primeiro Portfólio</h2>
-    <p>Feito 100% pelo celular no GitHub</p>
+
+  <div class="hero">
+    <div class="badge">🔥 DISPONÍVEL PARA PROJETOS</div>
+    <img src="https://github.com/paulovlog369.png">
+    <h1>Paulo Silva</h1>
+    <p>Desenvolvedor em formação. Aprendendo a criar sites e apps do zero, direto pelo celular, no GitHub.</p>
+    <div style="margin-top: 25px;">
+      <a class="btn-main" href="projetos.html">Ver Projetos →</a>
+      <a class="btn-sec" href="contato.html">Falar Comigo</a>
+    </div>
   </div>
 
-  <div class="card">
-    <h3>O que eu já sei:</h3>
-    <p>✅ HTML ✅ CSS ✅ GitHub</p>
-    <p>Próximo: JavaScript</p>
+  <div class="section">
+    <h2 style="font-size: 28px; text-align: center;">O que eu já fiz hoje 📱</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>🎨 Portfólio</h3>
+        <p>Site com 4 páginas, design escuro e responsivo. Feito no celular.</p>
+        <a href="index.html" style="color: #58a6ff; text-decoration: none; font-weight: bold;">Ver →</a>
+      </div>
+      <div class="card">
+        <h3>🧮 Calculadora JS</h3>
+        <p>Calculadora funcional com JavaScript, somando, dividindo e apagando.</p>
+        <a href="calculadora.html" style="color: #58a6ff; text-decoration: none; font-weight: bold;">Testar →</a>
+      </div>
+      <div class="card">
+        <h3>💻 GitHub</h3>
+        <p>Perfil especial, 4 repositórios, commits, estrelas e README profissional.</p>
+        <a href="https://github.com/paulovlog369" style="color: #58a6ff; text-decoration: none; font-weight: bold;">Meu GitHub →</a>
+      </div>
+      <div class="card">
+        <h3>🚀 Próximo Passo</h3>
+        <p>Lista de tarefas com LocalStorage, pra salvar dados de verdade.</p>
+        <p style="color: #8b949e; font-size: 14px; margin-top: 10px;">Em breve...</p>
+      </div>
+    </div>
   </div>
 
-  <a class="btn" href="https://instagram.com/paulovlog369">Instagram</a>
-  <a class="btn" href="contato.html" style="background: #1f6feb;">Contato →</a>
-
-  <p style="margin-top: 30px;">
-    <button onclick="alert('Você clicou! Isso é JavaScript funcionando no seu site!')" class="btn" style="background: #8957e5;">Clica aqui (JS)</button>
-  </p>
-</body>
-<a class="btn" href="projetos.html" style="background: #da3633;">Meus Projetos</a>
-<a class="btn" href="calculadora.html" style="background: #f0883e;">Calculadora 🧮</a>
+  <div style="text-align: center; padding: 40px 20px; border-top: 1px solid #21262d; color: #8b949e;">
+    <p>Feito com ❤️ por Paulo • No celular • 27/10/2026</p>
+    <p style="margin-top: 10px;"><a href="https://instagram.com/pa
