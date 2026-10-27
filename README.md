@@ -1,23 +1,18 @@
-## Hi there 👋
 
-<!--
-**paulovlog369/paulovlog369** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Olá, eu sou o Paulo! 👋
 
-Here are some ideas to get you started:
+🚀 Aprendendo programação do zero pelo celular
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->### Olá, eu sou o Paulo 👋
+🌱 Estudando agora: HTML, CSS e JavaScript no GitHub
+📚 Comecei hoje e já fiz meu primeiro portfólio com 4 páginas
+🎯 Meta: Virar dev e criar meus próprios apps
 
-- 🌱 Estou aprendendo GitHub e programação do zero pelo celular
-- 📚 Estudando: Lógica de programação
-- 🎯 Meta: Meu primeiro site/app
-- 📍 Santa Bárbara d'Oeste - SP
+#### Meu portfólio (feito no celular):
+- [Meu Site](https://paulovlog369.github.io/paulovlog369/) - em construção
+- Calculadora, Projetos e Contato
 
-Primeiro projeto: meu-primeiro-projeto
+📍 Santa Bárbara d'Oeste - SP
+📸 Instagram: [@paulovlog369](https://instagram.com/paulovlog369)
+
+---
+⭐ Comecei do zero hoje - 27/10/2026
